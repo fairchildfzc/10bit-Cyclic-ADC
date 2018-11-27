@@ -1,0 +1,75 @@
+function [adout] = cyc_adc(Vi)
+%UNTITLED2 Summary of this function goes here
+%   Detailed explanation goes here
+%?????????????????????????????
+%???????????????????????????OTA???????OTA??????????
+global Cs1; global Cf1; global Cp1; global Com_os1a; global Com_os1b; global Adc1; global Ota_os1;
+global Cs2; global Cf2; global Cp2; global Com_os2a; global Com_os2b; global Adc2; global Ota_os2;
+global Com_os3a; global Com_os3b; global Com_os3c;
+global del_Comvn; global del_Otavn; %???????OTA???noise????
+global Vref; %????
+M(8) = 0; L(8) = 0; %?????????????????
+
+for j = 1:4    % ????,????2??????
+    %***********************the 1st 1.5b stage*****************
+    if Vi < -0.25*Vref+Com_os1a+del_Comvn*randn(1,1)     %?if????1.5b a/d conversion
+        dm1 = 0; dl1 = 0;
+    elseif Vi > 0.25*Vref+Com_os1b+del_Comvn*randn(1,1)  %?????????offset, ????????????noise?????????
+        dm1 = 1; dl1 = 0;                            %??????offset??????noise????????????????????????
+    else
+        dm1 = 0; dl1 = 1;
+    end
+    if dm1==0 && dl1==0                            %?if????1.5b d/a conversion
+        Vr = -Vref;
+    elseif dm1==1 && dl1==0
+        Vr = Vref;
+    else
+        Vr = 0;
+    end
+    Vo = (Cs1+Cf1)/Cf1*Vi - Cs1/Cf1*Vr;           %???????
+    f = Cf1/(Cs1+Cp1+Cf1);                        %??????????
+    Vo = Vo*(1-1/f*1/Adc1);                       %finite gain error
+    Vo = Vo - 1/f*Ota_os1;                        %Ota???????
+    Vni = del_Otavn*randn(1,1);                   %?????????????????
+    Vo = Vo + 1/f*Vni;                            % ???????????
+    M(2*j-1) = dm1; L(2*j-1) = dl1;
+    Vi = Vo;
+    %***********************the 2nd 1.5b stage*****************   
+    if Vi < -0.25*Vref+Com_os2a+del_Comvn*randn(1,1)
+        dm2 = 0; dl2 = 0;
+    elseif Vi > 0.25*Vref+Com_os2b+del_Comvn*randn(1,1)
+        dm2 = 1; dl2 = 0;
+    else
+        dm2 = 0; dl2 = 1;
+    end
+    if dm2==0 && dl2==0
+        Vr = -Vref;
+    elseif dm2==1 && dl2==0
+        Vr = Vref;
+    else
+        Vr = 0;
+    end
+    Vo = (Cs2+Cf2)/Cf2*Vi - Cs2/Cf2*Vr;
+    f = Cf2/(Cs2+Cp2+Cf2);
+    Vo = Vo*(1-1/f*1/Adc2);
+    Vo = Vo - 1/f*Ota_os2;                        %Ota???????
+    Vni = del_Otavn*randn(1,1);                   %?????????????????
+    Vo = Vo + 1/f*Vni;                            % ???????????
+    M(2*j) = dm2; L(2*j) = dl2;
+    Vi = Vo;
+end
+%********************the 2-bit backend adc *****************
+if Vi<-0.5*Vref+Com_os3a+del_Comvn*randn(1,1)
+    q = 0;
+elseif Vi>-0.5*Vref+Com_os3a+del_Comvn*randn(1,1) && Vi<Com_os3b+del_Comvn*randn(1,1)
+    q = 1;
+elseif Vi>0.5*Vref+Com_os3c+del_Comvn*randn(1,1)
+    q = 3;
+else
+    q=2;
+end
+%********************digital correction *****************
+adout = M(1)*2^9 + L(1)*2^8 + M(2)*2^8 + L(2)*2^7 + M(3)*2^7 + L(3)*2^6 + M(4)*2^6 + L(4)*2^5 + M(5)*2^5 + L(5)*2^4;
+adout = adout + M(6)*2^4 + L(6)*2^3 + M(7)*2^3 + L(7)*2^2 + M(8)*2^2 + L(8)*2^1 + q;  %??????????
+end
+
