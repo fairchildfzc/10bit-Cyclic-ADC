@@ -22,7 +22,7 @@
 | Analog Input Bandwidth | >5MHz       |  
 | Input Range | 2V differential        |  
 | Power Dissipation | <10mW      |  
-| Operating Temperature | 0 - 80<sup>o</sup>C   |  
+| Operating Temperature | 0 - 80 <sup>o</sup>C   |  
 | Die Size | <2mm<sup>2</sup>      |  
 | Process | 0.18um CMOS       |  
 
