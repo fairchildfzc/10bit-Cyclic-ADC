@@ -4,8 +4,8 @@
 
 * **Zichen Fan, EE, Tsinghua University**
 * Songyao Tan, IME, Tsinghua University
-
-
+* Jinpeng Lu, IME, Tsinghua University
+* Linpei Zhang, IME, Tsinghua University
 
 ## Structure
 * Cyclic ADC
