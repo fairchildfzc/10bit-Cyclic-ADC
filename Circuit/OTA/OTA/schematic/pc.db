@@ -1,0 +1,41 @@
+#
+smic18mm MIM symbol
+C1
+C0
+#
+smic18mm p18 symbol
+PMb2
+PMb5
+PMb3
+PMb6
+PMb7
+PMb8
+PM2
+PM1
+PM2A
+PM1A
+#
+smic18mm n18 symbol
+NMbb1
+NMbb2
+NMb4
+NMb1
+NMb0
+NM0
+NM2A
+NM1A
+NM2
+NM1
+#ISCELL
+basic ipin symbol
+PIN1
+PIN0
+#ISCELL
+basic opin symbol
+PIN3
+PIN2
+#ISCELL
+basic iopin symbolr
+PIN4
+PIN5
+PIN6

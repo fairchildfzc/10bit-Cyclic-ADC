@@ -1,0 +1,31 @@
+#
+PART3 2_nand_gate symbol
+I41
+#
+PART3 3_nand_gate symbol
+I39
+I40
+#
+PART3 Dyn_comparator symbol
+I38
+I37
+I36
+#ISCELL
+basic noConn symbol
+I42
+#ISCELL
+basic ipin symbol
+PIN31
+PIN30
+PIN4
+PIN11
+PIN10
+PIN9
+#ISCELL
+basic iopin symbolr
+PIN0
+PIN1
+#ISCELL
+basic opin symbol
+PIN12
+PIN13

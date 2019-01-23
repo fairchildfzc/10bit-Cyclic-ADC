@@ -1,0 +1,62 @@
+#
+PART3 backend_ADC symbol
+I1
+#
+PART3 subADC symbol
+I0
+#
+smic18mm capm5 symbol
+C7
+C6
+C5
+C4
+#
+smic18mm rnposab symbol
+R9
+R8
+R7
+R6
+R5
+#ISCELL
+basic opin symbol
+PIN13
+PIN12
+PIN19
+PIN17
+PIN14
+PIN21
+PIN25
+PIN18
+PIN24
+PIN28
+PIN20
+PIN23
+PIN27
+PIN22
+PIN26
+PIN16
+PIN15
+PIN29
+#ISCELL
+basic ipin symbol
+PIN31
+PIN30
+PIN42
+PIN8
+PIN35
+PIN37
+PIN5
+PIN6
+PIN7
+PIN9
+PIN2
+PIN32
+PIN34
+PIN3
+PIN33
+PIN10
+PIN38
+#ISCELL
+basic iopin symbolr
+PIN0
+PIN1

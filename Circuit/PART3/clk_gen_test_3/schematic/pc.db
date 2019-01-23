@@ -1,0 +1,54 @@
+#
+PART3 2_nand_gate symbol
+I71
+I72
+#
+PART3 not_gate_normal symbol
+I81
+I82
+I83
+I84
+I85
+I86
+I87
+I88
+I70
+I75
+I74
+I73
+I76
+I77
+I78
+I79
+I80
+#
+PART3 not_gate symbol
+I92
+I89
+I52
+I50
+I51
+I91
+I53
+I90
+#
+analogLib vpulse symbol
+V0
+#
+analogLib vdc symbol
+V1
+#
+analogLib cap symbol
+C0
+C1
+C2
+C3
+#ISCELL
+analogLib gnd symbol
+I3
+I0
+I1
+I2
+I4
+I5
+I6

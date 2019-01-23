@@ -1,0 +1,19 @@
+#
+smic18mm p18 layout
+I4
+I3
+#
+smic18mm n18 layout
+I2
+I1
+#ISCELL
+smic18mm M1_NW symbolic
+I0
+I5
+#ISCELL
+smic18mm M1_GT symbolic
+I8
+I7
+#ISCELL
+smic18mm M1_SUB symbolic
+I6

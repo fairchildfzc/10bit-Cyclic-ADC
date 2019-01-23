@@ -1,0 +1,26 @@
+#
+OTA OTA symbol
+I19
+#
+analogLib vcvs symbol
+E1
+E0
+#
+analogLib cap symbol
+C0
+C6
+#
+analogLib idc symbol
+I1
+#
+analogLib vdc symbol
+V1
+V2
+#
+analogLib vsin symbol
+V0
+#ISCELL
+analogLib gnd symbol
+I11
+I12
+I10

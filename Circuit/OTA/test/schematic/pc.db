@@ -1,0 +1,10 @@
+#
+smic18mm n18 symbol
+NM0
+#
+analogLib vdc symbol
+V1
+V0
+#ISCELL
+analogLib gnd symbol
+I0

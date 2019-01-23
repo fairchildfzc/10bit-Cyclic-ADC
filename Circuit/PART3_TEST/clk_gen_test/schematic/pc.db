@@ -1,0 +1,40 @@
+#
+PART3 clk_gen symbol
+I19
+#
+analogLib vpulse symbol
+V1
+#
+analogLib vdc symbol
+V0
+#
+analogLib cap symbol
+C9
+C6
+C7
+C4
+C2
+C0
+C11
+C10
+C8
+C5
+C3
+C1
+#ISCELL
+analogLib gnd symbol
+I12
+I9
+I7
+I5
+I3
+I15
+I14
+I13
+I11
+I10
+I8
+I6
+I4
+I2
+I1

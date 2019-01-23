@@ -1,0 +1,16 @@
+#
+smic18mm p18 symbol
+PM0
+#
+smic18mm n18 symbol
+NM0
+#ISCELL
+basic iopin symbolr
+PIN2
+PIN3
+#ISCELL
+basic ipin symbol
+PIN1
+#ISCELL
+basic opin symbol
+PIN0

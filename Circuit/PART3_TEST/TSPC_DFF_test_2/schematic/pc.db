@@ -1,0 +1,35 @@
+#
+analogLib vdc symbol
+V0
+#
+analogLib vpulse symbol
+V1
+V2
+#
+analogLib cap symbol
+C1
+C0
+#
+smic18mm n18 symbol
+NM0
+NM1
+NM2
+NM3
+NM4
+NM5
+#
+smic18mm p18 symbol
+PM3
+PM0
+PM1
+PM2
+PM4
+PM5
+#ISCELL
+analogLib gnd symbol
+I0
+I1
+I2
+I3
+I4
+I5

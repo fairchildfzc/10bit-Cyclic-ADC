@@ -1,0 +1,86 @@
+#
+PART3 not_gate_m1 symbol
+I22
+I25
+I26
+I23
+I27
+I28
+I24
+I29
+I15
+I14
+I13
+I12
+I11
+I10
+I9
+I8
+#
+PART3 3_nand_gate symbol
+I31
+I32
+I30
+I7
+I6
+I5
+#
+PART3 not_gate_m0 symbol
+I33
+I4
+#
+PART3 Dyn_comparator symbol
+I35
+I34
+I3
+I2
+#
+smic18mm p18 symbol
+PM3
+PM1
+PM0
+PM2
+#
+smic18mm n18 symbol
+NM3
+NM2
+NM0
+NM1
+#ISCELL
+basic iopin symbolr
+PIN1
+PIN0
+#ISCELL
+basic ipin symbol
+PIN51
+PIN50
+PIN38
+PIN33
+PIN3
+PIN34
+PIN32
+PIN2
+PIN7
+PIN6
+PIN5
+PIN37
+PIN35
+PIN8
+#ISCELL
+basic opin symbol
+PIN29
+PIN15
+PIN16
+PIN26
+PIN22
+PIN27
+PIN23
+PIN20
+PIN28
+PIN24
+PIN18
+PIN25
+PIN21
+PIN14
+PIN17
+PIN19

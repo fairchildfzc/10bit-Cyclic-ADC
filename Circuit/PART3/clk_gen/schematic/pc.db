@@ -1,0 +1,73 @@
+#
+PART3 TSPC_DFF symbol
+I102
+I103
+I108
+#
+PART3 2_nand_gate symbol
+I97
+I99
+I106
+I98
+I100
+I71
+I72
+I96
+#
+PART3 not_gate_normal symbol
+I109
+I101
+I81
+I82
+I83
+I84
+I85
+I105
+I86
+I87
+I88
+I104
+I95
+I70
+I94
+I75
+I74
+I73
+I76
+I77
+I78
+I79
+I80
+I93
+I107
+#
+PART3 not_gate symbol
+I92
+I89
+I52
+I50
+I51
+I91
+I53
+I90
+#
+PART3 tran_gate symbol
+I43
+I44
+#ISCELL
+basic iopin symbolr
+PIN18
+PIN19
+PIN5
+PIN7
+PIN8
+PIN9
+PIN10
+PIN11
+PIN12
+PIN13
+PIN14
+PIN15
+PIN16
+PIN17
+PIN4

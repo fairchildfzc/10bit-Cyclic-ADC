@@ -1,0 +1,9 @@
+#
+PART3 subADC symbol
+I2
+#
+PART4 OUTPUT_SYN symbol
+I1
+#
+PART3 clk_gen symbol
+I0

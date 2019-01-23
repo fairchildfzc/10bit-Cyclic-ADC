@@ -1,0 +1,66 @@
+#
+analogLib cap symbol
+C0
+C1
+#
+analogLib idc symbol
+I0
+#
+analogLib vsin symbol
+V4
+V3
+#
+analogLib vdc symbol
+V0
+V2
+V7
+V8
+V1
+V5
+V6
+#
+analogLib vcvs symbol
+E0
+#
+analogLib res symbol
+R1
+R0
+#
+smic18mm n18 symbol
+NM11
+NM10
+NM9
+NM8
+NM7
+NM6
+NM5
+NM4
+NM3
+NM2
+NM1
+NM0
+#
+smic18mm p18 symbol
+PM13
+PM15
+PM14
+PM16
+PM11
+PM10
+PM12
+PM8
+PM7
+PM6
+PM5
+PM4
+PM3
+PM2
+PM1
+PM0
+#ISCELL
+analogLib gnd symbol
+I3
+I8
+I4
+I6
+I5

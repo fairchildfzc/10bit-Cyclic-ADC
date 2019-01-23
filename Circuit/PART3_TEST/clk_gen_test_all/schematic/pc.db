@@ -1,0 +1,95 @@
+#
+analogLib cap symbol
+C1
+C3
+C5
+C8
+C10
+C11
+C0
+C2
+C4
+C7
+C6
+C9
+#
+analogLib vdc symbol
+V0
+#
+analogLib vpulse symbol
+V1
+#
+PART3 tran_gate symbol
+I44
+I43
+#
+PART3 not_gate symbol
+I90
+I53
+I91
+I51
+I50
+I52
+I89
+I92
+#
+PART3 not_gate_normal symbol
+I107
+I80
+I79
+I78
+I77
+I76
+I73
+I74
+I75
+I70
+I104
+I88
+I87
+I86
+I105
+I85
+I84
+I83
+I82
+I81
+I101
+I109
+I93
+I94
+I95
+#
+PART3 2_nand_gate symbol
+I72
+I71
+I100
+I98
+I106
+I99
+I96
+I97
+#
+PART3 TSPC_DFF symbol
+I108
+I103
+I102
+#ISCELL
+analogLib gnd symbol
+I16
+I0
+I1
+I2
+I4
+I6
+I8
+I10
+I11
+I13
+I14
+I15
+I3
+I5
+I7
+I9
+I12

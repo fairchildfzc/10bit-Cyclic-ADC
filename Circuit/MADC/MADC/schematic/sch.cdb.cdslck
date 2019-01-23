@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      chby17
+HostName                       edahost
+ProcessIdentifier              891
+ProcessCreationTime_UTC        1547947823
+ProcessCreationTime_Readable   Sun Jan 20 09:30:23 2019 CST
+AppIdentifier                  /soft1/cadence/IC5141ISR144/tools/dfII/bin/icfb.exe
+OSType                         lnx86
+ReasonForPlacingEditLock       XXsave write lock
+FilePathUsedToEditLock         /data2/class/chby/chby17/finalproject/MADC/MADC/schematic/sch.cdb
+TimeEditLocked                 Sun Jan 20 11:09:23 2019 CST

@@ -1,0 +1,69 @@
+#
+smic18mm capm5 layout
+I49
+I6
+#
+smic18mm n18 layout
+I42
+I26
+I24
+I23
+I20
+I18
+I16
+I33
+I57
+I61
+I2
+I39
+I64
+#
+smic18mm p18 layout
+I58
+I43
+I40
+I27
+I25
+I21
+I19
+I17
+I62
+I37
+I65
+I1
+I22
+#ISCELL
+smic18mm M1_GT symbolic
+I67
+I66
+I54
+I53
+I52
+I15
+I13
+I11
+I10
+I9
+I8
+I50
+I5
+I7
+I51
+I59
+I56
+I55
+I14
+I12
+I63
+I60
+I41
+I38
+#ISCELL
+smic18mm M2_M1 symbolic
+I47
+I46
+I3
+I4
+#ISCELL
+smic18mm M6_M5 symbolic
+I28
